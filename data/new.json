@@ -1,0 +1,36 @@
+{
+"sim":"55178122",
+"location":"Sfax",
+"cin":"00000002",
+"name":"Firas Chikhrouhou",
+"profilePic":"assets/img/speakers/0.png",
+"offre_appel":"A",
+"offre_data":"A",
+"consommation_appel":[11, 15, 22, 33],
+"consommation_data":[400, 450, 350, 500 ]
+}
+
+{
+"sim":"55178121",
+"location":"Kairouan",
+"cin":"00000001",
+"name":"Hannafi Fakher",
+"profilePic":"assets/img/speakers/1.png",
+"offre_appel":"B",
+"offre_data":"B",
+"consommation_appel": [11, 11, 22, 33 ],
+"consommation_data":[500, 600, 550, 650 ]
+}
+{
+"sim":"55178120",
+"location":"Ksar Hlel",
+"cin":"00000000",
+"name":"Ayoub Bennasr",
+"profilePic":"assets/img/speakers/2.png",
+"offre_appel":"C",
+"offre_data":"C",
+"consommation_appel": [11, 11, 22, 33 ],
+"consommation_data":[1000, 950, 1000, 980 ]
+
+}
+
