@@ -34,7 +34,7 @@ app.use(function(req, res, next) {
     // Get reviews
     //Review.methodes(['get','put','delete','post']);
 
-/*******************Reviews*******************/
+/*******************Reviews get*******************/
     app.get('/api/reviews', function(req, res) {
  
         console.log("fetching reviews");
@@ -49,23 +49,7 @@ app.use(function(req, res, next) {
         });
     });
 
-    /**********************OffreData get***************/
-
-    app.get('/api/offredata', function(req, res) {
- 
-        console.log("fetching offre_data");
- 
-        // use mongoose to get all reviews in the database
-        OffreData.find({} ,function(err, response) {
- 
-            // if there is an error retrieving, send the error. nothing after res.send(err) will execute
-            if (err) res.send(err); 
-            else res.send(response); // return all reviews in JSON format
-            console.log(response);
-        });
-    });
-
-
+    
 
 
 /****************Subscriber collection get********************/
